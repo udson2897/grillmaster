@@ -1,0 +1,189 @@
+#pagina{
+height:auto ;
+
+
+
+
+
+    
+
+}
+
+#cabecalho{
+
+height: 120px;
+margin: 5px;
+text-align: center;
+color: rgb(9, 255, 0);
+font-weight: bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+}
+
+#menu{
+padding: 10px;
+margin: 5px;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+background-color:black;
+font-family:Georgia, 'Times New Roman', Times, serif;
+align-items: center;
+
+
+
+
+
+}
+
+#conteudo{
+height:auto ;
+margin: 5px;
+color: white;
+display: flex;
+flex-direction: row;
+gap: 30px;
+justify-content: center;
+padding-top: 50px;
+
+
+}
+
+body{
+    background-image: url(/img/dois-gostoso-hamburgueres-bebida-cebola-aneis.jpg);
+    background-position: center;
+    background-size: 1980px;
+    background-repeat: no-repeat;
+       
+    
+    
+
+}
+
+table{
+    font-size: 20px;
+    color:rgb(9, 255, 0);
+    display: flex;
+    justify-content: center;
+    
+      
+}
+
+.cardapio{
+font-size: 32px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+color: yellow;
+
+   
+}
+
+a{
+text-decoration: none;    
+color:rgb(255, 94, 0);
+padding: 20px;
+font-weight: bold;
+}
+    
+h1{
+font-size: 35px;    
+}     
+
+h3{
+    font-size: 25px;
+}
+
+a:hover {
+ color: yellow;   
+}
+
+.produtos{
+ color:rgb(9, 255, 0);   
+ font-weight: bold;
+
+}
+
+.itens{
+ color: yellow;   
+
+}
+
+.igredientes{
+ color: white;   
+}
+.alinhar{
+    color:rgb(9, 255, 0);   
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+
+i{
+margin-right: 10px;
+}
+
+th{
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    #cabecalho {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    #conteudo {
+        padding-top: 10px;
+    }
+
+    .cardapio {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+.card{
+    text-align: center;
+    border-radius: 15px;
+    border-width: 5px;
+    padding: 15px;
+    background-color: black;
+}
+
+.card:hover{
+    border-color: rgb(9, 255, 0);  
+    transform: scale(1.1);
+    transition-duration: 1s; 
+    
+}
+
+.card img{
+    border-radius: 15px;
+}
+
+.card-text{
+    color: orangered;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+#rodape{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 240px;
+}

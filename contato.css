@@ -1,0 +1,83 @@
+header{
+height: 120px;
+margin: 5px;
+text-align: center;
+color: rgb(9, 255, 0);
+font-weight: bold;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: url(/img/dois-gostoso-hamburgueres-bebida-cebola-aneis.jpg);
+    background-position: center;
+    background-size: 1980px;
+    background-repeat: no-repeat;
+    color: yellow;
+}
+
+form{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+input[type="text"] {
+   width: 15%;
+   border-radius: 10px;
+}
+
+input[type="email"] {
+    width: 15%;
+    border-radius: 10px;
+}
+
+input[type="password"] {
+    width: 15%;
+    border-radius: 10px;
+}
+
+input[type="date"] {
+    width: 15%;
+    border-radius: 10px;
+}
+
+#bot1:hover{
+    cursor: pointer;
+}
+
+#bot2:hover{
+    cursor: pointer;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+button{
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#bot1{
+    background-color: rgb(6, 194, 6);
+    width: 150px;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+#bot2{
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+
+table{
+    text-align: left;
+    
+}

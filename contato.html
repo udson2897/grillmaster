@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/css/boot.css">
+    <link rel="stylesheet" href="/css/contato.css">
+  
+
+
+</head>
+<body>
+    <header>
+        <div id="cabecalho">
+            <h1>GRILL MASTER HAMBURGUERIA</h1>
+            <H3>O MELHOR FAST FOOD DA CIDADE!</H3>
+        </div>
+    </header>
+    
+    <form>
+        <label for="nome">Nome completo:</label><br>
+        <input id="nome" type="text" required placeholder="Insira seu nome completo"><br>
+        <label for="email">E-mail:</label><br>
+        <input id="email" type="email" required placeholder="Insira seu e-mail"><br>
+        <label for="telefone">Telefone:</label><br>
+        <input id="telefone" type="text" required placeholder="Informe seu telefone"><br>
+        <label for="assunto">Assunto:</label><br>
+        <input id="assunto" type="text" required placeholder="Motivo do seu contato"><br>
+        <label for="mensagem">Deixe uma mensagem para nós!</label><br>
+        <textarea id="mensagem" name="mensagem" rows="10" cols="38" ></textarea><br>
+        <Label for="genero">Gênero:</Label>
+        <br>
+        
+        <input type="radio" id="masculino" name="genero" value="Masculino">
+        <label for="masculino">Masculino</label>
+    
+        <input type="radio" id="feminino" name="genero" value="Feminino">
+        <label for="feminino">Feminino</label>
+        
+        <input type="radio" id="outros" name="genero" value="Outros">
+        <label for="outros">Outros</label>
+        <br><br>
+    
+        <label for="preferencia">Preferências de contato:</label>
+        <br>
+        <br>
+        <table align="center">
+            <tr>
+            <td>   
+        <input id="email" type="checkbox" value="email">
+            </td>
+            <td>
+        <label for="email">Desejo receber notificações por e-mail</label>
+            </td> 
+           </tr>
+        
+
+            <tr>
+            <td>
+        <input id="sms" type="checkbox" value="sms">
+            </td> 
+            <td>
+        <label for="sms">Desejo receber notificações por SMS</label>
+           </td> 
+            </tr>
+
+            <tr>
+            <td>
+        <input id="telefone" type="checkbox" value="telefone">
+            </td>
+            <td>  
+        <label for="telefone">Desejo ser contatado por telefone</label>
+         </td> 
+        </tr>   
+        </table>
+        <br>
+        
+        <button id="bot1" type="submit">Enviar</button> <button id="bot2" type="reset">Limpar</button>
+        
+        <br>
+        
+        <label>Escolha o serviço:</label>
+        <br>
+        <select name="servicos">
+            <option selected></option>
+            <option value="servicos">Suporte técnico</option>
+            <option value="servicos">Reclamações</option>
+            <option value="servicos">Sugestões</option>
+            <option value="servicos">Elogios</option>
+            <option value="servicos">Outro</option>
+        
+
+        </select>
+
+
+    </form>
+    <footer id="rodape">
+
+    
+</body>
+</html>
